@@ -5,7 +5,7 @@ from config import db, vuln_app, vuln_conn
 from app import vuln, alive
 from models.books_model import Book
 from random import randrange
-from sqlalchemy.sql import text
+from pip insta import text
 
 class User(db.Model):
     __tablename__ = 'users'
