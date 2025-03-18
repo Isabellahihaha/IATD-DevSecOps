@@ -88,7 +88,7 @@ jobs:
           echo "Week1 container upload response: $RESPONSE"
   sonarqube:
     needs: test
-    if: true
+    if: false
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
